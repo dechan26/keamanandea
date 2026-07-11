@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login | LunaDiary</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="login-container">
+
+    <!-- Gambar -->
+
+    <div class="login-left">
+
+        <img src="assets/image/gambar lunadiary.png" alt="LunaDiary">
+
+    </div>
+
+    <!-- Form Login -->
+
+    <div class="login-right">
+
+        <h1>🌙 Welcome Back</h1>
+
+        <p>Masuk ke akun LunaDiary untuk melanjutkan perjalananmu.</p>
+
+        <form id="loginForm">
+
+            <label>Email</label>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Masukkan email"
+                required
+            >
+
+            <label>Password</label>
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Masukkan password"
+                required
+            >
+
+            <button type="submit">
+
+                Login
+
+            </button>
+
+        </form>
+
+        <p class="register-link">
+
+            Belum punya akun?
+
+            <a href="register.html">
+
+                Register
+
+            </a>
+
+        </p>
+
+        <a href="index.html" class="back-home">
+
+            ← Kembali ke Home
+
+        </a>
+
+    </div>
+
+</div>
+
+<!-- Supabase -->
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<script src="js/supabase.js"></script>
+
+<script src="js/login.js"></script>
+
+</body>
+</html>

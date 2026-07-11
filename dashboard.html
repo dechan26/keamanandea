@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | LunaDiary</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="dashboard-body">
+
+    <!-- Navbar -->
+
+    <header class="topbar">
+
+        <h2>🌙 LunaDiary</h2>
+
+        <div class="profile">
+
+            <span id="welcomeText">Hello, Starling 💗</span>
+
+            <button id="logoutBtn"> Logout </button>
+
+        </div>
+
+    </header>
+
+    <!-- Hero -->
+
+    <section class="welcome">
+
+        <div>
+
+            <h1>Good Evening ✨</h1>
+
+            <p>
+                Capture today's thoughts and keep your memories safe.
+            </p>
+
+        </div>
+
+        <button class="new-btn">
+
+            + New Diary
+
+        </button>
+
+    </section>
+
+    <!-- Form -->
+
+    <section class="write-box">
+
+        <h2>Create New Entry</h2>
+
+        <input
+     id="title"
+    type="text"
+    placeholder="Diary Title">
+
+        <textarea
+    id="content"
+    placeholder="Write your story here..."></textarea>
+
+        <button id="saveDiary">
+
+            Save Diary
+
+        </button>
+
+    </section>
+
+    <!-- Notes -->
+
+    <section class="entries">
+
+        <h2>Recent Entries</h2>
+
+        <div class="card-container">
+
+            <div id="diaryContainer" class="card-container">
+
+                <h3>🌸 Beautiful Morning</h3>
+
+                <p>
+                    Start your day with a grateful heart and a smile.
+                </p>
+
+                <span>10 July 2026</span>
+
+            </div>
+
+            <div id="diaryContainer" class="card-container">
+
+                <h3>☁ Cozy Afternoon</h3>
+
+                <p>
+                    Sometimes the little moments become the best memories.
+                </p>
+
+                <span>09 July 2026</span>
+
+            </div>
+
+            <div id="diaryContainer" class="card-container">
+
+                <h3>🌙 Night Thoughts</h3>
+
+                <p>
+                    Every ending is the beginning of something beautiful.
+                </p>
+
+                <span>08 July 2026</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="js/supabase.js"></script>
+<script src="js/dashboard.js"></script>
+
+</body>
+</html>
