@@ -28,7 +28,7 @@ Aplikasi diary berbasis web modern yang memungkinkan pengguna untuk menyimpan da
 - **Font**: Google Fonts (Poppins)
 - **Version Control**: Git
 
-## 💻 Tools & Environment
+## Tools & Environment
 
 - **Code Editor**: Visual Studio Code (VS Code)
 - **Browser**: Google Chrome
@@ -55,11 +55,11 @@ Lunadiary/
     ├── logout.js       # Fungsi logout
     └── dashboard.js    # Fungsi dashboard
 ```
-## 🌐 Akses Online
+## Akses Online
 
 LunaDiary sudah di-deploy di **Vercel** dan dapat diakses secara online:
 
-- **URL**: [https://lunadiary.vercel.app](https://lunadiary.vercel.app)
+- **URL**: [https://keamanandea.vercel.app/](https://lunadiary.vercel.app)
 - Aplikasi sudah live dan siap digunakan
 - Tidak perlu instalasi lokal untuk mencoba aplikasi
 
