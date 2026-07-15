@@ -1,97 +1,107 @@
-# 🌙 LunaDiary
+# LunaDiary
 
-A modern web-based diary application that allows users to securely store and manage their personal journal entries. LunaDiary combines a beautiful user interface with robust backend infrastructure to provide a seamless journaling experience.
+Aplikasi diary berbasis web modern yang memungkinkan pengguna untuk menyimpan dan mengelola entri jurnal pribadi mereka dengan aman. LunaDiary menggabungkan antarmuka pengguna yang indah dengan infrastruktur backend yang kuat untuk memberikan pengalaman menulis buku harian yang mulus.
 
-## 📋 Table of Contents
+## Daftar Isi
 
-- [Features](#features)
-- [Technologies](#technologies)
-- [Project Structure](#project-structure)
-- [Installation & Setup](#installation--setup)
-- [Usage](#usage)
-- [Security](#security)
-- [Contributing](#contributing)
-- [License](#license)
+- [Fitur](#fitur)
+- [Teknologi](#teknologi)
+- [Struktur Proyek](#struktur-proyek)
+- [Akses Online](#akses-online)
+- [Instalasi & Pengaturan](#instalasi--pengaturan)
+- [Cara Penggunaan](#cara-penggunaan)
+- [Keamanan](#keamanan)
+- [Kontribusi](#kontribusi)
 
-## ✨ Features
+## Fitur
 
-- **User Authentication** - Secure login and registration system
-- **Dashboard** - Personal dashboard to view and manage diary entries
-- **Responsive Design** - Works seamlessly on desktop and mobile devices
-- **Modern UI** - Clean and intuitive user interface built with HTML, CSS, and JavaScript
-- **Backend Integration** - Powered by Supabase for reliable data storage and authentication
+- **Autentikasi Pengguna** - Sistem login dan registrasi yang aman
+- **Dashboard** - Dashboard pribadi untuk melihat dan mengelola entri diary
+- **Desain Responsif** - Bekerja dengan sempurna di perangkat desktop dan mobile
+- **UI Modern** - Antarmuka pengguna yang bersih dan intuitif dibangun dengan HTML, CSS, dan JavaScript
+- **Integrasi Backend** - Didukung oleh Supabase untuk penyimpanan data dan autentikasi yang dapat diandalkan
 
-## 🛠 Technologies
+## Teknologi
 
 - **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
 - **Backend**: Supabase
 - **Font**: Google Fonts (Poppins)
 - **Version Control**: Git
 
-## 📁 Project Structure
+## 💻 Tools & Environment
+
+- **Code Editor**: Visual Studio Code (VS Code)
+- **Browser**: Google Chrome
+- **Deployment**: Vercel
+- **Database & Authentication**: Supabase
+
+## Struktur Proyek
 
 ```
 Lunadiary/
-├── index.html           # Landing page
-├── login.html           # Login page
-├── register.html        # Registration page
-├── dashboard.html       # User dashboard
-├── README.md            # Project documentation
+├── index.html           # Halaman landing
+├── login.html           # Halaman login
+├── register.html        # Halaman registrasi
+├── dashboard.html       # Dashboard pengguna
+├── README.md            # Dokumentasi proyek
 ├── assets/
-│   └── image/          # Image assets
+│   └── image/          # Aset gambar
 ├── css/
-│   └── style.css       # Main stylesheet
+│   └── style.css       # Stylesheet utama
 └── js/
-    ├── supabase.js     # Supabase configuration
-    ├── login.js        # Login functionality
-    ├── register.js     # Registration functionality
-    ├── logout.js       # Logout functionality
-    └── dashboard.js    # Dashboard functionality
+    ├── supabase.js     # Konfigurasi Supabase
+    ├── login.js        # Fungsi login
+    ├── register.js     # Fungsi registrasi
+    ├── logout.js       # Fungsi logout
+    └── dashboard.js    # Fungsi dashboard
 ```
+## 🌐 Akses Online
 
-## 🚀 Installation & Setup
+LunaDiary sudah di-deploy di **Vercel** dan dapat diakses secara online:
 
-1. **Clone the repository** (if applicable)
+- **URL**: [https://lunadiary.vercel.app](https://lunadiary.vercel.app)
+- Aplikasi sudah live dan siap digunakan
+- Tidak perlu instalasi lokal untuk mencoba aplikasi
+
+## Instalasi & Pengaturan
+
+1. **Clone repository** (jika berlaku)
    ```bash
    git clone <repository-url>
    cd Lunadiary
    ```
 
-2. **Open in a web server**
-   - Use any local web server (e.g., Live Server in VS Code)
-   - Or simply open `index.html` in your browser
+2. **Buka di web server**
+   - Gunakan web server lokal apa pun (misalnya Live Server di VS Code)
+   - Atau cukup buka `index.html` di browser Anda
 
-3. **No additional dependencies needed**
-   - The project uses CDN for Supabase library
-   - All dependencies are loaded from external sources
+3. **Tidak ada dependensi tambahan yang diperlukan**
+   - Proyek menggunakan CDN untuk library Supabase
+   - Semua dependensi dimuat dari sumber eksternal
 
-## 📖 Usage
+## Cara Penggunaan
 
-1. **Visit the Landing Page** - Start at `index.html` to learn about LunaDiary
-2. **Create an Account** - Click on "Register" and fill in your details
-3. **Log In** - Use your credentials to access the application
-4. **Access Dashboard** - View and manage your diary entries from the dashboard
-5. **Log Out** - Securely log out when finished
+1. **Kunjungi Halaman Landing** - Mulai dari `index.html` untuk mempelajari tentang LunaDiary
+2. **Buat Akun** - Klik "Register" dan isi detail Anda
+3. **Log In** - Gunakan kredensial Anda untuk mengakses aplikasi
+4. **Akses Dashboard** - Lihat dan kelola entri diary Anda dari dashboard
+5. **Log Out** - Keluar dengan aman saat selesai
 
-## 🔒 Security
+## Keamanan
 
-- Passwords are handled securely through Supabase authentication
-- No sensitive data is stored in local storage unnecessarily
-- Supabase provides industry-standard security practices
+- Password ditangani dengan aman melalui autentikasi Supabase
+- Data sensitif tidak disimpan di local storage tanpa perlu
+- Supabase menyediakan praktik keamanan standar industri
 
-## 👥 Contributing
+## Kontribusi
 
-Contributions are welcome! To contribute:
+Kontribusi sangat diterima! Untuk berkontribusi:
 
-1. Create a new branch for your feature
-2. Make your changes
-3. Test thoroughly
-4. Submit a pull request with a clear description
-
-## 📄 License
-
-This project is part of the Information Security course (Keamanan Informasi) - Semester 6.
+1. Buat branch baru untuk fitur Anda
+2. Buat perubahan Anda
+3. Uji dengan menyeluruh
+4. Kirim pull request dengan deskripsi yang jelas
 
 ---
 
-**Developed with ❤️ for secure and beautiful journaling**
+**Dikembangkan dengan ❤️ untuk journaling yang aman dan indah**
