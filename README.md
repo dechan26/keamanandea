@@ -59,7 +59,7 @@ Lunadiary/
 
 LunaDiary sudah di-deploy di **Vercel** dan dapat diakses secara online:
 
-- **URL**: [https://keamanandea.vercel.app/](https://lunadiary.vercel.app)
+- **URL**: [https://keamanandea.vercel.app/]
 - Aplikasi sudah live dan siap digunakan
 - Tidak perlu instalasi lokal untuk mencoba aplikasi
 
